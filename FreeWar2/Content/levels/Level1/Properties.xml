@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<XnaContent> 
+	<Asset Type="DEngine.LevelProperties">
+		<Name>Level 1</Name>
+		<Width>40</Width>
+		<Height>40</Height>
+	</Asset>
+</XnaContent>
