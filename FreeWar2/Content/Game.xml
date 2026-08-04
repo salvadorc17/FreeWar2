@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
-<XnaContent> 
-	<Asset Type="System.Collections.Generic.List[DEngine.GameDefinition]"> 
-		<Item>
-			<Level>Level1.xml</Level>
-		</Item>
-	</Asset>
-</XnaContent>
