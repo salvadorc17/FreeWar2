@@ -1,10 +1,10 @@
-# FreeWar2
+# OpenWar2
 Free open source game engine for running Warcraft 2. It requieres the game files from cd version
 
 # Prerequisites
 
     -Windows
-    MonoGame: 3.6 or higher
+    MonoGame: 3.4 or higher
     OpenAL 2.0
     
     -Linux
@@ -13,4 +13,4 @@ Free open source game engine for running Warcraft 2. It requieres the game files
 
 # Build
 
-Use Visual Studio 2017 or higher. Mono for Linux. Run FreeWar2.sln to build
+Use Visual Studio 2017 or higher. Mono for Linux. Run OpenWar2.sln to build
