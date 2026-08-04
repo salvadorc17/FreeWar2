@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Actor name="GemRockLarge" width="40" height="50" scale="0.2">
+  <Sprite name="GemRockLarge1" loop="false" speed="2">
+    <Image name="gemrock-large1.png" originX="20" originY="25" />
+  </Sprite>
+  <Sprite name="GemRockLarge2" loop="false" speed="2">
+    <Image name="gemrock-large2.png" originX="21" originY="23" />
+  </Sprite>
+</Actor>

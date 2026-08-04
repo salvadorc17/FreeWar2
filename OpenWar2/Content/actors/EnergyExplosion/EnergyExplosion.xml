@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Actor name="EnergyExplosion" width="60" height="60" scale="0.2">
+  <Sprite name="EnergyExplosion" loop="false" speed="2">
+    <Image name="EnergyExplosion1.png" originX="25" originY="27" />
+    <Image name="EnergyExplosion2.png" originX="26" originY="25" />
+    <Image name="EnergyExplosion3.png" originX="19" originY="20" />
+    <Image name="EnergyExplosion4.png" originX="30" originY="32" />
+    <Image name="EnergyExplosion5.png" originX="37" originY="39" />
+  </Sprite>
+</Actor>

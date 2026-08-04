@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Actor name="SmallTank" width="38" height="42" scale="0.2">
+	<Sprite name="base" loop="false" speed="6">
+		<Image name="tank-small-base.png" />
+	</Sprite>
+</Actor>

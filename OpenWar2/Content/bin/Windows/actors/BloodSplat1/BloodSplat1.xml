@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<!-- DEngine Actor Definition -->
+<Actor name="BloodSplat1" width="9" height="9" scale="2">
+    <Sprite name="BloodSplat1" loop="False" speed="12">
+    <Image name="BloodSplat1-1.png" />
+    <Image name="BloodSplat1-2.png" />
+    <Image name="BloodSplat1-3.png" />
+    <Image name="BloodSplat1-4.png" />
+    <Image name="BloodSplat1-5.png" />
+    <Image name="BloodSplat1-6.png" />
+  </Sprite>
+</Actor>
+
+<!-- <XnaContent>
+  <Asset Type="DEngine.ContentIO.ActorContentData">
+    <Size>5 5</Size>
+    <Scale>1</Scale>
+
+    <Asset Type="System.Collections.ObjectModel.Collection[DEngine.ContentIO.SpriteContentData]">
+      <Item>
+        <Name>BulletImpact</Name>
+        <Speed>2</Speed>
+        <Loop>False</Loop>
+
+        <Asset Type="System.Collections.ObjectModel.Collection[DEngine.ContentIO.FrameContentData]">
+          <Item>
+            <Name>BulletImpact1.png</Name>
+            <Origin>2 2</Origin>
+          </Item>
+        </Asset>
+      </Item>
+    </Asset>
+  </Asset>
+</XnaContent>-->

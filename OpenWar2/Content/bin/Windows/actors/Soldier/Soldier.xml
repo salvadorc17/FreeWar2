@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<!--DEngine Actor Definition-->
+<Actor name="Soldier" width="32" height="32" scale="0.2">
+  <Sprite name="SoldierIdle" loop="False" speed="6">
+    <Image name="soldier-south1.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierSouth" loop="True" speed="12">
+    <Image name="soldier-south1.png" originX="16" originY="16" />
+    <Image name="soldier-south2.png" originX="16" originY="16" />
+    <Image name="soldier-south3.png" originX="16" originY="16" />
+    <Image name="soldier-south4.png" originX="16" originY="16" />
+    <Image name="soldier-south5.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierNorth" loop="True" speed="12">
+    <Image name="soldier-north1.png" originX="16" originY="16" />
+    <Image name="soldier-north2.png" originX="16" originY="16" />
+    <Image name="soldier-north3.png" originX="16" originY="16" />
+    <Image name="soldier-north4.png" originX="16" originY="16" />
+    <Image name="soldier-north5.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierWest" loop="True" speed="12" flipX="true">
+    <Image name="soldier-east1.png" originX="16" originY="16" />
+    <Image name="soldier-east2.png" originX="16" originY="16" />
+    <Image name="soldier-east3.png" originX="16" originY="16" />
+    <Image name="soldier-east4.png" originX="16" originY="16" />
+    <Image name="soldier-east5.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierEast" loop="True" speed="12">
+    <Image name="soldier-east1.png" originX="16" originY="16" />
+    <Image name="soldier-east2.png" originX="16" originY="16" />
+    <Image name="soldier-east3.png" originX="16" originY="16" />
+    <Image name="soldier-east4.png" originX="16" originY="16" />
+    <Image name="soldier-east5.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierNorthWest" loop="True" speed="12">
+    <Image name="soldier-northwest1.png" originX="16" originY="16" />
+    <Image name="soldier-northwest2.png" originX="16" originY="16" />
+    <Image name="soldier-northwest3.png" originX="16" originY="16" />
+    <Image name="soldier-northwest4.png" originX="16" originY="16" />
+    <Image name="soldier-northwest5.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierSouthWest" loop="True" speed="12">
+    <Image name="soldier-southwest1.png" originX="16" originY="16" />
+    <Image name="soldier-southwest2.png" originX="16" originY="16" />
+    <Image name="soldier-southwest3.png" originX="16" originY="16" />
+    <Image name="soldier-southwest4.png" originX="16" originY="16" />
+    <Image name="soldier-southwest5.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierNorthEast" loop="True" speed="12" flipX="true">
+    <Image name="soldier-northwest1.png" originX="16" originY="16" />
+    <Image name="soldier-northwest2.png" originX="16" originY="16" />
+    <Image name="soldier-northwest3.png" originX="16" originY="16" />
+    <Image name="soldier-northwest4.png" originX="16" originY="16" />
+    <Image name="soldier-northwest5.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierSouthEast" loop="True" speed="12" flipX="true">
+    <Image name="soldier-southwest1.png" originX="16" originY="16" />
+    <Image name="soldier-southwest2.png" originX="16" originY="16" />
+    <Image name="soldier-southwest3.png" originX="16" originY="16" />
+    <Image name="soldier-southwest4.png" originX="16" originY="16" />
+    <Image name="soldier-southwest5.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierNorthAttack" loop="True" speed="6">
+    <Image name="soldier-north-attack1.png" originX="16" originY="16" />
+    <Image name="soldier-north-attack2.png" originX="16" originY="16" />
+    <Image name="soldier-north-attack3.png" originX="16" originY="16" />
+    <Image name="soldier-north-attack4.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierSouthAttack" loop="True" speed="6">
+    <Image name="soldier-south-attack1.png" originX="16" originY="16" />
+    <Image name="soldier-south-attack2.png" originX="16" originY="16" />
+    <Image name="soldier-south-attack3.png" originX="16" originY="16" />
+    <Image name="soldier-south-attack4.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierNorthWestAttack" loop="True" speed="6">
+    <Image name="soldier-northwest-attack1.png" originX="16" originY="16" />
+    <Image name="soldier-northwest-attack2.png" originX="16" originY="16" />
+    <Image name="soldier-northwest-attack3.png" originX="16" originY="16" />
+    <Image name="soldier-northwest-attack4.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierSouthWestAttack" loop="True" speed="6">
+    <Image name="soldier-southwest-attack1.png" originX="16" originY="16" />
+    <Image name="soldier-southwest-attack2.png" originX="16" originY="16" />
+    <Image name="soldier-southwest-attack3.png" originX="16" originY="16" />
+    <Image name="soldier-southwest-attack4.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierWestAttack" loop="True" speed="6" flipX="true">
+    <Image name="soldier-east-attack1.png" originX="16" originY="16" />
+    <Image name="soldier-east-attack2.png" originX="16" originY="16" />
+    <Image name="soldier-east-attack3.png" originX="16" originY="16" />
+    <Image name="soldier-east-attack4.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierNorthEastAttack" loop="True" speed="6" flipX="true">
+    <Image name="soldier-northwest-attack1.png" originX="16" originY="16" />
+    <Image name="soldier-northwest-attack2.png" originX="16" originY="16" />
+    <Image name="soldier-northwest-attack3.png" originX="16" originY="16" />
+    <Image name="soldier-northwest-attack4.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierSouthEastAttack" loop="True" speed="6" flipX="true">
+    <Image name="soldier-southwest-attack1.png" originX="16" originY="16" />
+    <Image name="soldier-southwest-attack2.png" originX="16" originY="16" />
+    <Image name="soldier-southwest-attack3.png" originX="16" originY="16" />
+    <Image name="soldier-southwest-attack4.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierEastAttack" loop="True" speed="6">
+    <Image name="soldier-east-attack1.png" originX="16" originY="16" />
+    <Image name="soldier-east-attack2.png" originX="16" originY="16" />
+    <Image name="soldier-east-attack3.png" originX="16" originY="16" />
+    <Image name="soldier-east-attack4.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="SoldierDieSoft" loop="False" speed="18">
+    <Image name="soldier-die-soft1.png" originX="5" originY="10" />
+    <Image name="soldier-die-soft2.png" originX="4" originY="10" />
+    <Image name="soldier-die-soft3.png" originX="3" originY="9" />
+  </Sprite>
+</Actor>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<!-- DEngine Actor Definition -->
+<Actor name="BulletImpact" width="5" height="5" scale="0.2">
+    <Sprite name="BulletImpact" loop="False" speed="2">
+    <Image name="BulletImpact1.png" originX="2" originY="2" />
+    <Image name="BulletImpact2.png" originX="2" originY="2" />
+    <Image name="BulletImpact3.png" originX="3" originY="3" />
+  </Sprite>
+</Actor>
+
+<!-- <XnaContent>
+  <Asset Type="DEngine.ContentIO.ActorContentData">
+    <Size>5 5</Size>
+    <Scale>1</Scale>
+
+    <Asset Type="System.Collections.ObjectModel.Collection[DEngine.ContentIO.SpriteContentData]">
+      <Item>
+        <Name>BulletImpact</Name>
+        <Speed>2</Speed>
+        <Loop>False</Loop>
+
+        <Asset Type="System.Collections.ObjectModel.Collection[DEngine.ContentIO.FrameContentData]">
+          <Item>
+            <Name>BulletImpact1.png</Name>
+            <Origin>2 2</Origin>
+          </Item>
+        </Asset>
+      </Item>
+    </Asset>
+  </Asset>
+</XnaContent>-->

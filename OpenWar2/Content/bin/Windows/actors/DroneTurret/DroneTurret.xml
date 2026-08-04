@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Actor name="DroneTurret" width="20" height="20" scale="0.2">
+	<Sprite name="turret" loop="false" speed="6">
+		<Image name="drone-turret.png" originX="15" originY="15" />
+	</Sprite>
+</Actor>

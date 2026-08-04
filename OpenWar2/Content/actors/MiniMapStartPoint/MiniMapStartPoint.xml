@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Actor name="MiniMapStartPoint" width="24" height="24" scale="0.2">
+	<Sprite name="MiniMapStartPoint" loop="false" speed="6">
+		<Image name="minimap-startpoint2.png" />
+	</Sprite>
+</Actor>

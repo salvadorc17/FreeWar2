@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Actor name="Barracks" width="80" height="97" scale="0.2">
+	<Sprite name="Barracks" loop="false" speed="0">
+		<Image name="Barracks.png" />
+	</Sprite>
+</Actor>

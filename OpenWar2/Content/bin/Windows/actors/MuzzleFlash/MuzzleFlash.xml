@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<!-- DEngine Actor Definition -->
+<Actor name="MuzzleFlash" width="4" height="4" scale="2">
+  <Sprite name="MuzzleFlashE" loop="False" speed="2">
+    <Image name="MuzzleFlashE.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashENE" loop="False" speed="2">
+    <Image name="MuzzleFlashENE.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashNE" loop="False" speed="2">
+    <Image name="MuzzleFlashNE.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashNNE" loop="False" speed="2">
+    <Image name="MuzzleFlashNNE.png" originX="2" originY="2" />
+  </Sprite>
+    <Sprite name="MuzzleFlashN" loop="False" speed="2">
+    <Image name="MuzzleFlashN.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashNNW" loop="False" speed="2">
+    <Image name="MuzzleFlashNNW.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashNW" loop="False" speed="2">
+    <Image name="MuzzleFlashNW.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashWNW" loop="False" speed="2">
+    <Image name="MuzzleFlashWNW.png" originX="2" originY="2" />
+  </Sprite>
+    <Sprite name="MuzzleFlashW" loop="False" speed="2">
+    <Image name="MuzzleFlashW.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashWSW" loop="False" speed="2">
+    <Image name="MuzzleFlashWSW.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashSW" loop="False" speed="2">
+    <Image name="MuzzleFlashSW.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashSSW" loop="False" speed="2">
+    <Image name="MuzzleFlashSSW.png" originX="2" originY="2" />
+  </Sprite>
+    <Sprite name="MuzzleFlashS" loop="False" speed="2">
+    <Image name="MuzzleFlashS.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashSSE" loop="False" speed="2">
+    <Image name="MuzzleFlashSSE.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashSE" loop="False" speed="2">
+    <Image name="MuzzleFlashSE.png" originX="2" originY="2" />
+  </Sprite>
+  <Sprite name="MuzzleFlashESE" loop="False" speed="2">
+    <Image name="MuzzleFlashESE.png" originX="2" originY="2" />
+  </Sprite>
+</Actor>

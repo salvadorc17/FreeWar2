@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/tote5/OneDrive/Documentos/Visual Studio 2017/Projects/OpenWar2/OpenWar2/Content/LucidaConsole.spritefont</SourceFile>
+  <SourceTime>2009-02-02T01:53:12-05:00</SourceTime>
+  <DestFile>C:/Users/tote5/OneDrive/Documentos/Visual Studio 2017/Projects/OpenWar2/OpenWar2/Content/bin/Windows/LucidaConsole.xnb</DestFile>
+  <DestTime>2026-08-04T14:46:28.5805891-05:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2017-03-01T10:05:36-05:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2017-03-01T10:05:36-05:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

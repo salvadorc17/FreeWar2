@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<!--DEngine Actor Definition-->
+<Actor name="Peasant" width="32" height="32" scale="0.3">
+  <Sprite name="Peasant" loop="False" speed="6">
+    <Image name="peasant-idle.png" originX="16" originY="16" />
+  </Sprite>
+  <Sprite name="PeasantSouth" loop="True" speed="12">
+    <Image name="peasant-south1.png" originX="6" originY="9" />
+    <Image name="peasant-south2.png" originX="6" originY="9" />
+    <Image name="peasant-south3.png" originX="6" originY="9" />
+    <Image name="peasant-south4.png" originX="6" originY="9" />
+    <Image name="peasant-south5.png" originX="6" originY="9" />
+  </Sprite>
+  <Sprite name="PeasantNorth" loop="True" speed="12">
+    <Image name="peasant-north1.png" originX="5" originY="11" />
+    <Image name="peasant-north2.png" originX="5" originY="11" />
+    <Image name="peasant-north3.png" originX="5" originY="10" />
+    <Image name="peasant-north4.png" originX="5" originY="10" />
+    <Image name="peasant-north5.png" originX="5" originY="11" />
+  </Sprite>
+  <Sprite name="PeasantWest" loop="True" speed="12" flipX="true">
+    <Image name="peasant-east1.png" originX="8" originY="8" />
+    <Image name="peasant-east2.png" originX="10" originY="7" />
+    <Image name="peasant-east3.png" originX="11" originY="7" />
+    <Image name="peasant-east4.png" originX="10" originY="8" />
+    <Image name="peasant-east5.png" originX="8" originY="8" />
+  </Sprite>
+  <Sprite name="PeasantEast" loop="True" speed="12">
+    <Image name="peasant-east1.png" originX="3" originY="8" />
+    <Image name="peasant-east2.png" originX="4" originY="7" />
+    <Image name="peasant-east3.png" originX="5" originY="7" />
+    <Image name="peasant-east4.png" originX="4" originY="8" />
+    <Image name="peasant-east5.png" originX="3" originY="8" />
+  </Sprite>
+
+</Actor>

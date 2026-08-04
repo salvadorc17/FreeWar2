@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Actor name="GemRockSmall" width="24" height="24" scale="0.2">
+  <Sprite name="GemRockSmall1" loop="false" speed="2">
+    <Image name="gemrock-small1.png" originX="12" originY="12" />
+  </Sprite>
+  <Sprite name="GemRockSmall2" loop="false" speed="2">
+    <Image name="gemrock-small2.png" originX="12" originY="12" />
+  </Sprite>
+  <Sprite name="GemRockSmall3" loop="false" speed="2">
+    <Image name="gemrock-small3.png" originX="12" originY="12" />
+  </Sprite>
+  <Sprite name="GemRockSmall4" loop="false" speed="2">
+    <Image name="gemrock-small4.png" originX="12" originY="12" />
+  </Sprite>
+</Actor>

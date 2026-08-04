@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Actor name="TurretGun" width="26" height="48" scale="0.2">
+	<Sprite name="turret" loop="false" speed="6">
+		<Image name="turret-gun.png" />
+	</Sprite>
+</Actor>
+
+
+<!-- <XnaContent>
+  <Asset Type="ActorContentData">
+    <Name>TurretGun</Name>
+    <Width>26</Width>
+    <Height>48</Height>
+    <Scale>1.4</Scale>
+    
+    <Asset Type="System.Collections.ObjectModel.Collection[DEngine.ContentIO.SpriteContentData]">
+      <Item>
+        <Name>turret</Name>
+        <Loop>false</Loop>
+        <Speed>6</Speed>
+        
+        <Asset Type="System.Collections.ObjectModel.Collection[DEngine.ContentIO.SpriteFrameContentData]">
+          <Item>
+            <File>turret-gun.png</File>
+          </Item>
+        </Asset>
+      </Item>
+  </Asset>
+  </Asset>
+</XnaContent> -->

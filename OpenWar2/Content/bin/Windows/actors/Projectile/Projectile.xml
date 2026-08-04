@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Actor name="Projectile" width="20" height="24" scale="0.2">
+	<Sprite name="Projectile" loop="false" speed="6">
+		<Image name="Projectile.png" />
+	</Sprite>
+</Actor>

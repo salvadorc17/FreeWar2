@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!--DEngine Tile Definitions-->
+<DTileDefinitions>
+  <Tile name="forest-tile2" solid="true" />
+  <Tile name="water-tile" solid="true" />
+</DTileDefinitions>

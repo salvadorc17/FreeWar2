@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Actor name="Pillbox" width="64" height="64" scale="0.2">
+	<Sprite name="Pillbox" loop="false" speed="0">
+		<Image name="pillbox2.png" />
+	</Sprite>
+</Actor>

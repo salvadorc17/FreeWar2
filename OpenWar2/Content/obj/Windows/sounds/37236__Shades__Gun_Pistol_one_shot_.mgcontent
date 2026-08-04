@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/tote5/OneDrive/Documentos/Visual Studio 2017/Projects/OpenWar2/OpenWar2/Content/sounds/37236__Shades__Gun_Pistol_one_shot_.wav</SourceFile>
+  <SourceTime>2010-01-07T21:00:24-05:00</SourceTime>
+  <DestFile>C:/Users/tote5/OneDrive/Documentos/Visual Studio 2017/Projects/OpenWar2/OpenWar2/Content/bin/Windows/sounds/37236__Shades__Gun_Pistol_one_shot_.xnb</DestFile>
+  <DestTime>2026-08-04T14:46:31.3358091-05:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2017-03-01T10:05:36-05:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2017-03-01T10:05:36-05:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

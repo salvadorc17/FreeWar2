@@ -1,0 +1,1173 @@
+Signature = XACT3;
+Version = 18;
+Content Version = 46;
+Release = February 2010;
+
+Options
+{
+    Verbose Report = 1;
+    Generate C/C++ Headers = 1;
+}
+
+Global Settings
+{
+    Xbox File = Xbox\FactionsAudioXACT.xgs;
+    Windows File = Win\FactionsAudioXACT.xgs;
+    Header File = E:\Development\Source\DEngine\FactionsGame\FactionsAudio\FactionsAudioXACT.h;
+    Exclude Category Names = 0;
+    Exclude Variable Names = 0;
+    Last Modified Low = 4031669963;
+    Last Modified High = 30052251;
+
+    Category
+    {
+        Name = Global;
+        Public = 1;
+        Background Music = 0;
+        Volume = 0;
+
+        Category Entry
+        {
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Category
+    {
+        Name = Default;
+        Public = 1;
+        Background Music = 0;
+        Volume = 0;
+
+        Category Entry
+        {
+            Name = Global;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Category
+    {
+        Name = Music;
+        Public = 1;
+        Background Music = 1;
+        Volume = 0;
+
+        Category Entry
+        {
+            Name = Global;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Variable
+    {
+        Name = OrientationAngle;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = -180.000000;
+        Max = 180.000000;
+    }
+
+    Variable
+    {
+        Name = DopplerPitchScalar;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 1.000000;
+        Initial Value = 1.000000;
+        Min = 0.000000;
+        Max = 4.000000;
+    }
+
+    Variable
+    {
+        Name = SpeedOfSound;
+        Public = 1;
+        Global = 1;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 343.500000;
+        Initial Value = 343.500000;
+        Min = 0.000000;
+        Max = 1000000.000000;
+    }
+
+    Variable
+    {
+        Name = ReleaseTime;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 1;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 15000.000000;
+    }
+
+    Variable
+    {
+        Name = AttackTime;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 1;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 15000.000000;
+    }
+
+    Variable
+    {
+        Name = NumCueInstances;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 1024.000000;
+    }
+
+    Variable
+    {
+        Name = Distance;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 1000000.000000;
+    }
+}
+
+Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 1;
+    Seek Tables = 1;
+    Compression Preset Name = <none>;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 2535695838;
+    PC Bank Last Modified High = 30129404;
+    Bank Last Revised Low = 2535605833;
+    Bank Last Revised High = 30129404;
+
+    Wave
+    {
+        Name = 33380_DJ_Chronos_Boom;
+        File = 33380_DJ_Chronos_Boom.wav;
+        Build Settings Last Modified Low = 2519731157;
+        Build Settings Last Modified High = 30052228;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 276396;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1820794629;
+            Last Modified High = 30052232;
+        }
+    }
+
+    Wave
+    {
+        Name = 37236__Shades__Gun_Pistol_one_shot_;
+        File = 37236__Shades__Gun_Pistol_one_shot_.wav;
+        Build Settings Last Modified Low = 2519741158;
+        Build Settings Last Modified High = 30052228;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 73688;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2622750498;
+            Last Modified High = 30052232;
+        }
+    }
+
+    Wave
+    {
+        Name = 47252_nthompson_rocketexpl;
+        File = 47252_nthompson_rocketexpl.wav;
+        Build Settings Last Modified Low = 2519741158;
+        Build Settings Last Modified High = 30052228;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 96000;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 286094;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3237780502;
+            Last Modified High = 30052052;
+        }
+    }
+
+    Wave
+    {
+        Name = 18386_inferno_lightrl;
+        File = 18386_inferno_lightrl.wav;
+        Build Settings Last Modified Low = 63622486;
+        Build Settings Last Modified High = 30052233;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 95958;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1995434617;
+            Last Modified High = 30052232;
+        }
+    }
+
+    Wave
+    {
+        Name = 18394_inferno_rlhvyx;
+        File = 18394_inferno_rlhvyx.wav;
+        Build Settings Last Modified Low = 63622486;
+        Build Settings Last Modified High = 30052233;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 179800;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2175514917;
+            Last Modified High = 30052232;
+        }
+    }
+
+    Wave
+    {
+        Name = LightMG1;
+        File = LightMG1.wav;
+        Build Settings Last Modified Low = 63632487;
+        Build Settings Last Modified High = 30052233;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 150220;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3479649510;
+            Last Modified High = 30052232;
+        }
+    }
+
+    Wave
+    {
+        Name = LightMG2;
+        File = LightMG2.wav;
+        Build Settings Last Modified Low = 63632487;
+        Build Settings Last Modified High = 30052233;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 128312;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3876672218;
+            Last Modified High = 30052232;
+        }
+    }
+
+    Wave
+    {
+        Name = LightMG3;
+        File = LightMG3.wav;
+        Build Settings Last Modified Low = 63642487;
+        Build Settings Last Modified High = 30052233;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 108492;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4080643885;
+            Last Modified High = 30052232;
+        }
+    }
+
+    Wave
+    {
+        Name = 42882__digifishmusic__Electromechanics_4;
+        File = 42882__digifishmusic__Electromechanics_4.wav;
+        Build Settings Last Modified Low = 2157582599;
+        Build Settings Last Modified High = 30052245;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 14952;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1637472850;
+            Last Modified High = 30052245;
+        }
+    }
+
+    Wave
+    {
+        Name = 33637__HerbertBoland__CinematicBoomNorm;
+        File = 33637__HerbertBoland__CinematicBoomNorm.wav;
+        Build Settings Last Modified Low = 3888598331;
+        Build Settings Last Modified High = 30052247;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 1333060;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1903274777;
+            Last Modified High = 30052247;
+        }
+    }
+}
+
+Sound Bank
+{
+    Name = Sound Bank;
+    Xbox File = Xbox\Sound Bank.xsb;
+    Windows File = Win\Sound Bank.xsb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 1;
+    Bank Last Modified Low = 2535845847;
+    Bank Last Modified High = 30129404;
+    Header Last Modified High = 0;
+    Header Last Modified Low = 0;
+
+    Sound
+    {
+        Name = 47252_nthompson_rocketexpl;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = Wave Bank;
+                    Bank Index = 0;
+                    Entry Name = 47252_nthompson_rocketexpl;
+                    Entry Index = 2;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 37236__Shades__Gun_Pistol_one_shot_;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = Wave Bank;
+                    Bank Index = 0;
+                    Entry Name = 37236__Shades__Gun_Pistol_one_shot_;
+                    Entry Index = 1;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 33380_DJ_Chronos_Boom;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = Wave Bank;
+                    Bank Index = 0;
+                    Entry Name = 33380_DJ_Chronos_Boom;
+                    Entry Index = 0;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = LightMG3;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = Wave Bank;
+                    Bank Index = 0;
+                    Entry Name = LightMG3;
+                    Entry Index = 7;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = LightMG2;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = Wave Bank;
+                    Bank Index = 0;
+                    Entry Name = LightMG2;
+                    Entry Index = 6;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = LightMG1;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = Wave Bank;
+                    Bank Index = 0;
+                    Entry Name = LightMG1;
+                    Entry Index = 5;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 18394_inferno_rlhvyx;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = Wave Bank;
+                    Bank Index = 0;
+                    Entry Name = 18394_inferno_rlhvyx;
+                    Entry Index = 4;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 18386_inferno_lightrl;
+        Volume = -1200;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = Wave Bank;
+                    Bank Index = 0;
+                    Entry Name = 18386_inferno_lightrl;
+                    Entry Index = 3;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 42882__digifishmusic__Electromechanics_4;
+        Volume = 600;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = Wave Bank;
+                    Bank Index = 0;
+                    Entry Name = 42882__digifishmusic__Electromechanics_4;
+                    Entry Index = 8;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Sound
+    {
+        Name = 33637__HerbertBoland__CinematicBoomNorm;
+        Volume = 600;
+        Pitch = 0;
+        Priority = 0;
+
+        Category Entry
+        {
+            Name = Default;
+        }
+
+        Track
+        {
+            Volume = 0;
+            Use Filter = 0;
+
+            Play Wave Event
+            {
+                Break Loop = 0;
+                Use Speaker Position = 0;
+                Use Center Speaker = 1;
+                New Speaker Position On Loop = 1;
+                Speaker Position Angle = 0.000000;
+                Speaker Position Arc = 0.000000;
+
+                Event Header
+                {
+                    Timestamp = 0;
+                    Relative = 0;
+                    Random Recurrence = 0;
+                    Random Offset = 0;
+                }
+
+                Wave Entry
+                {
+                    Bank Name = Wave Bank;
+                    Bank Index = 0;
+                    Entry Name = 33637__HerbertBoland__CinematicBoomNorm;
+                    Entry Index = 9;
+                    Weight = 255;
+                    Weight Min = 0;
+                }
+            }
+        }
+    }
+
+    Cue
+    {
+        Name = HeavyShot;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = 47252_nthompson_rocketexpl;
+            Index = 0;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = LightShot;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = 37236__Shades__Gun_Pistol_one_shot_;
+            Index = 1;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 10;
+            Behavior = 2;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Cue
+    {
+        Name = LongBoom;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = 33380_DJ_Chronos_Boom;
+            Index = 2;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = LightMG3;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = LightMG3;
+            Index = 3;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = LightMG2;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = LightMG2;
+            Index = 4;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = LightMG1;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = LightMG1;
+            Index = 5;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 10;
+            Behavior = 2;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Cue
+    {
+        Name = HeavyRocket;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = 18394_inferno_rlhvyx;
+            Index = 6;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = LightRocket;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = 18386_inferno_lightrl;
+            Index = 7;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = ButtonClick;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = 42882__digifishmusic__Electromechanics_4;
+            Index = 8;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+
+    Cue
+    {
+        Name = CinematicBoom;
+
+        Variation
+        {
+            Variation Type = 3;
+            Variation Table Type = 1;
+            New Variation on Loop = 0;
+        }
+
+        Sound Entry
+        {
+            Name = 33637__HerbertBoland__CinematicBoomNorm;
+            Index = 9;
+            Weight Min = 0;
+            Weight Max = 255;
+        }
+    }
+}
